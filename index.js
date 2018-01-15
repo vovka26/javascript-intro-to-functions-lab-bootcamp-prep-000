@@ -26,5 +26,4 @@ function sayHiToGrandma(string){
     return upperCaseReply
   }else (string === loveString)
     return loveReply
-  }
 }
