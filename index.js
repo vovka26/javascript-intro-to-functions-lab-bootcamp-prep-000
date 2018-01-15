@@ -14,7 +14,7 @@ function logWhisper(string){
   console.log(`${string.toLowerCase()}`)
 }
 
-var lowerCaseReply = "I can't hear you"
+var lowerCaseReply = "I can't hear you!"
 var upperCaseReply = "YES INDEED!"
 var loveReply = "I love you, too."
 
