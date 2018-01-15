@@ -22,16 +22,9 @@ var loveString = "I love you, Grandma."
 function sayHiToGrandma(string){
   if (string === string.toLowerCase()){
     return lowerCaseReply
-  }
-}
-
-function sayHiToGrandma(string){
-  if (string === string.toUpperCase()){
+  }else if (string === string.toUpperCase()){
     return upperCaseReply
+  }else (string === loveString){
+    return loveReply
   }
-}
-
-function sayHiToGrandma(string){
-  if (string === loveString)
-  return loveReply
 }
