@@ -23,3 +23,9 @@ function sayHiToGrandma(string){
     return lowerCaseReply
   }
 }
+
+function sayHiToGrandma(string){
+  if (string === string.toUpperCase()){
+    return upperCaseReply
+  }
+}
